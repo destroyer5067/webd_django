@@ -1,0 +1,297 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW WEBSITE</title>
+</head>
+
+<link rel="stylesheet" href="{% static 'static/css/proj1.css' % }">
+<script src="{% static 'static/css/proj1.js' % }"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet"> 
+<body>
+    <div class="hedd">
+        <div class="left">
+        <div class="backOutDown">
+            <a href="https://www.onlinegym4me.com/">
+            <img src="https://img.pngio.com/gym-icon-png-kansas-city-5-gym-png-450_300.png" style="height:55px;width:79px;">
+            
+            
+            </a>
+            </div>
+        </div>
+
+        <div class="mid">
+            <ul class="nav">
+                <li class="l1" id="l11"><a href="https://www.fitnessblender.com/workouts-programs">Workout</a>
+                <ul class="navwork">
+                    <li><a href=" ">Workout Videos</a></li>
+                    <li><a href=" ">Workout Programs</a></li>
+                    <li><a href=" ">Weight Loss</a></li>
+                    <li><a href=" ">Custom Programs</a></li>
+                </ul>
+            </li>
+                <li class="l2" id="l22"><a href="#Foot">Community</a>
+                    </li>
+                <li class="l3" id="l33"><a href="https://www.fitnessblender.com/healthy-living">Health</a> 
+                   </li>
+                <li class="l4" id="l44"><a href="https://www.fitnessblender.com/page/about-fitness-blender">Fitness</a>
+                     </li>
+                <li class="l5" id="l55"><a href="https://www.fitnessblender.com/page/about-fitness-blender">Videos</a>
+                     </li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+           <button type="button" class="b1" onclick="my()">SIGN IN</button>
+           <button class="b2" onclick="my2()">HELP</button>
+            </div>
+        </div>
+        <div class="front">
+            <video autoplay="true" muted="true" loop="true" id="myVideo" width="100%"  >
+                <source src="{ % static 'static/videos/gym2.mp4' %}" type="video/mp4">
+             
+             
+            </video>
+            <div class="vt">
+                <p >
+                    <img src="https://www.goldsgym.com/wp-content/uploads/sites/1/2020/06/comeback-stronger-home.png" alt="" width="900" height="307">
+            </p>
+             <h2 class="vth2" id="vth22">READY TO GET BACK INTO YOUR ROUTINE? WE’RE READY TO HELP YOU - ANYWHERE AND EVERYWHERE.</h2>
+            </div>
+            <button class="b4"> 
+             FIND AN OPEN GYM NEAR ME
+            </button>
+            <button class="b5"> 
+             MEMBERSHIP
+            </button>
+       </div>
+       <hr>
+       <div class="c">
+         <div class="d" id="f1">
+        <p class="par">
+              Workout Videos
+        </p>
+        <p class="sar">
+             Acess to hundreds of free,full-
+             length workout videos.</p>
+             <center>
+            <p>
+             <img src="img/s11.png" style="height:33px;width:54px;">
+             </p></center>
+         </div>
+         <div class="d" id="f2">
+            <p class="par">
+                Meal Plans
+          </p>
+          <p class="sar">
+               Plans built with registered dieticians
+            ans nutrionists.</p>
+               <center>
+              <p>
+               <img src="img/s11.png" style="height:33px;width:54px;">
+               </p></center>
+         </div>
+         <div class="d" id="f3">
+            <p class="par">
+                Personal Trainer
+          </p>
+          <p class="sar">
+               Learn from scratch each and every exercises
+            with proper guidance.</p>
+               <center>
+              <p>
+               <img src="img/s11.png" style="height:33px;width:54px;">
+               </p></center>
+         </div>
+         <div class="d" id="f4">
+            <p class="par">
+                Buy Premium
+          </p>
+          <p class="sar">
+              Buy premium videos and get a chance to talk to our experts
+            </p>
+               <center>
+              <p>
+               <img src="img/s11.png" style="height:33px;width:54px;">
+               </p></center>
+         </div>
+       </div>
+       <hr>
+       <div class="front2">
+
+       </div>
+       <hr>
+      <center><b><h1 style="font-family:comic sans ms;color:rgb(102, 88, 116);font-size: 400%;margin-top: 102px;text-decoration: underline;">
+        Have a look at snapshots
+      </h1>
+      </b></center>
+        
+    <div class="suc">
+        <div class="stories" id="item1"></div>
+        <div class="stories" id="item2"></div>
+        <div class="stories" id="item3"></div>
+        <div class="stories" id="item4"></div>
+        <div class="stories" id="item5"></div>
+        <div class="stories" id="item6"></div>
+        <div class="stories" id="item7"></div>
+        <div class="stories" id="item8"></div>
+    </div>
+    <div class="text">
+        OUR SUCCESS STORIES
+    </div>
+    <div class="weight" id="weight1">
+        <button class="b6" type="button" onclick="next()"></button>
+        <button class="b7" type="button" onclick="previous()"></button>
+    </div>
+    <div class="gp" id="gp1">
+    <div class="map2" id="map2">
+     </div>
+    <div id="map">
+    </div>
+    </div>
+    <div class="try">
+        <div class="ele1">
+            <h1 ><center>
+              Give Us A try.....</center>
+            </h1>
+        </div>
+        <div class="ele2"><center>
+                <button class="b8">
+                    GET STARTED TODAY
+                </button></center>
+        </div>
+    </div>
+    <div class="foot" id="Foot">
+        <div class="footup">
+            <div class="footupleft">
+            
+            </div>
+            <p class="footleftxt">Fitness is everything</p>
+            <div class="footupright">
+                <div class="footrightlist1">
+                    <ul class="list1right">
+                       <li><a href="">
+                        Workouts And Programs</a>
+                       </li>
+                       <li><a href="">
+                        Workout Videos</a>
+                    </li>
+                    <li><a href="">
+                        Custom Workout </a>
+                    </li>
+                    <li><a href="">
+                        Workout Programs</a>
+                    </li>
+                    <li><a href="">
+                        Meal Plans</a>
+                    </li>
+                    </ul>
+
+                </div>
+                <div class="footrightlist2">
+                    <ul class="list1right">
+                        <li><a href="">
+                         Healthy Living</a>
+                        </li>
+                        <li><a href=""> Fitness</a>
+                        </li>
+                     <li>
+                      
+                         <a href="">Health</a>
+                     </li>
+                     <li><a href=" ">
+                        Healthy Recipies</a>
+                     </li>
+                     <li><a href="">
+                         Before And After</a>
+                     </li>
+                     <li><a href="">
+                       Weight Loss</a>
+                    </li>
+                     </ul>
+
+                </div>
+                <div class="footrightlist3">
+                    <ul class="list1right">
+                        <li><a href=" ">
+                         FB Plus</a>
+                        </li>
+                        <li><a href="">
+                         Community</a>
+                     </li>
+                     <li><a href="">
+                         Blog</a>
+                     </li>
+                     <li><a href="">
+                        About</a>
+                     </li>
+                     <li><a href="">
+                         Contact Us</a>
+                     </li>
+                     <li><a href="">
+                       Clothing</a>
+                    </li>
+                    <li><a href="#f2">
+                        FAQ</a>
+                     </li>
+                     </ul>
+
+                </div>
+
+            </div>
+            
+        </div>
+       <hr>
+        <div class="footend"> 
+            <div class="cont1">
+             <ul class="ul2">
+                 <li >
+                     <a href="">Copyrights@ Satyam Raj</a>
+                 </li>
+                 <li >
+                    <a href="">Terms and conditions</a>
+                </li>
+                <li >
+                    <a href="">Privacy policy</a>
+                </li>
+             </ul>
+            
+            </div>
+            <div class="cont2">
+                <ul class="ul3">
+                    <li class="fb">
+                        <a href="">
+                            <img src="logo/fb.png">
+
+                        </a>
+                    </li>
+                    <li class="youtube">
+                        <a href="">
+                            <img src="logo/youtube.png">
+                            
+                        </a>
+                    </li>
+                    <li class="insta">
+                        <a href="">
+                            <img src="logo/insta3.png">
+                            
+                        </a>
+                    </li>
+                    <li class="twitter"> 
+                        <a href="">
+                            <img src="logo/twitter.png"> </a>
+                    </li>
+                     </ul>
+
+            </div>
+        </div>
+       
+    </div>
+  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqgc798JNSRae_lsjcXMtguyDHtpRznYg&callback=myMap"></script>
+</body>
+</html>
